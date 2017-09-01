@@ -31,7 +31,9 @@ New theme and background added, with UI option to change color using Animations.
 
 Here's a walkthrough of implemented user stories:
 
-http://imgur.com/JOiYBKh
+Updated version - http://i.imgur.com/JOiYBKh.gif
+
+Previous version - http://i.imgur.com/AcmSohx.gifv
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
