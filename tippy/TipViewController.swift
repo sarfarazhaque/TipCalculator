@@ -27,6 +27,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func changeColor(_ sender: Any) {
+        UIView.animate(withDuration: 0.4, animations: {
+        self.billLabel.textColor = UIColor.black
+        self.billField.textColor = UIColor.white
+        self.tipLabel.textColor = UIColor.black
+        self.tipLabel.textColor = UIColor.black
+        self.tipTitle.textColor = UIColor.black
+        self.totalLabel.textColor = UIColor.black
+        self.totalTitle.textColor = UIColor.black
+        })
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("view will appear")
